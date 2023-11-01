@@ -8,8 +8,6 @@ This is a simple web application that allows you to view and manage images in a 
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [License](#license)
 
 ## Features
 
