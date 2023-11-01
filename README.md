@@ -25,7 +25,7 @@ To get a local copy up and running, follow these simple steps:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/image-gallery.git
+   git clone https://github.com/your-username/Image-gallery.git
 2. Change to the project directory:
 
    ```sh
