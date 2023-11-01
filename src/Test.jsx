@@ -122,7 +122,7 @@ const Images = () => {
                                 <Droppable droppableId="images" direction="horizontal">
                                     {(provided) => (
                                         <div
-                                            className="grid grid-cols-5 gap-3"
+                                            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3"
                                             ref={provided.innerRef}
                                             {...provided.droppableProps}
                                         >
@@ -146,7 +146,7 @@ const Images = () => {
                                                                     alt=""
                                                                     className={`label-text cursor-pointer rounded-lg border-2 border-zinc-500 bg-white hover:opacity-20 hover:scale-105 duration-500 ${selectedImages.includes(item.id) && 'opacity-20 scale-105'}`}
                                                                 />
-                                                                <span className={`absolute w-full text-center bottom-3 font-semibold text-white opacity-0 group-hover:opacity-100 group-hover:-translate-y-10 duration-500 ${selectedImages.includes(item.id) && 'opacity-100 -translate-y-10'}`}>{item.name}</span>
+                                                                <span className={`absolute w-full text-center bottom-3 font-semibold text-sm md:text-base lg:text-lg text-white opacity-0 group-hover:opacity-100 group-hover:-translate-y-5 duration-500 ${selectedImages.includes(item.id) && 'opacity-100 -translate-y-5'}`}>{item.name}</span>
                                                                 <input
                                                                     className={`opacity-0 group-hover:opacity-100 checkbox absolute bg-white h-5 w-5 rounded-md top-3 left-3 ${selectedImages.includes(item.id) && 'opacity-100'}`}
                                                                     type="checkbox"
@@ -160,6 +160,10 @@ const Images = () => {
                                                     )}
                                                 </Draggable>
                                             ))}
+
+                                            <div className="bg-white flex text-center rounded-lg cursor-pointer">
+                                                <img className=" hover:opacity-80 hover:scale-[1.01] duration-300" src="https://i.ibb.co/dKtmKd0/396915-200.png" alt="" />
+                                            </div>
 
                                             {provided.placeholder}
                                         </div>
