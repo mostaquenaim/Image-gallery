@@ -1,10 +1,15 @@
 import './App.css'
+import Images from './Images'
+import NavBarComp from './NavBarComp'
+import Test from './Test'
 
 function App() {
 
   return (
     <>
-    <h1 className='text-3xl btn'>kjsdbf</h1>
+    <NavBarComp></NavBarComp>
+    {/* <Images></Images> */}
+    <Test></Test>
     </>
   )
 }
