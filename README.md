@@ -11,12 +11,21 @@ This is a simple web application that allows you to view and manage images in a 
 
 ## Features
 
-- View a gallery of images.
-- Select images to perform actions (reorder or delete).
-- Reorder images by dragging and dropping.
-- Delete selected images with a confirmation dialog.
-- User-friendly animations for deletion and selection.
-- Responsive design for various screen sizes.
+This web application offers a user-friendly image gallery experience with the following features:
+
+1. **Image Gallery:** Browse a collection of images in a visually appealing gallery format.
+
+2. **Image Selection:** Select one or more images by simply clicking on them. A checkbox appears for selected images.
+
+3. **Reordering Images:** Reorder images effortlessly using drag-and-drop functionality. Customize the gallery layout as you prefer.
+
+4. **Deletion with Confirmation:** Safely delete selected images with a confirmation dialog. This action is irreversible to prevent accidental deletions.
+
+5. **Animation Effects:** Enjoy smooth animations for image selection and deletion, enhancing the overall user experience.
+
+6. **Responsive Design:** Access the image gallery from various devices and screen sizes. The responsive design ensures a seamless experience on both desktop and mobile.
+
+The project aims to provide an intuitive and visually appealing interface for managing and interacting with your image collection. Try it out and enjoy the convenience of image selection, reordering, and deletion in a single application.
 
 ## Getting Started
 
