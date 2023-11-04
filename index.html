@@ -1,13 +1,24 @@
 <!doctype html>
 <html lang="en" data-theme="retro">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://i.ibb.co/Tmc8sZq/image.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Gallery</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- <script src="bower_components/aos/dist/aos.js"></script>  -->
+  <script type="module" src="/src/main.jsx"></script>
+  <!-- aos animation  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
