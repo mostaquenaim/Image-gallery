@@ -11,7 +11,7 @@ This is a simple web application that allows you to view and manage images in a 
 
 ## Features
 
-This web application offers a user-friendly image gallery experience with the following features:
+This web application offers a user-friendly image gallery experience with a range of features designed to enhance your interaction with images:
 
 1. **Image Gallery:** Browse a collection of images in a visually appealing gallery format.
 
@@ -21,11 +21,15 @@ This web application offers a user-friendly image gallery experience with the fo
 
 4. **Deletion with Confirmation:** Safely delete selected images with a confirmation dialog. This action is irreversible to prevent accidental deletions.
 
-5. **Animation Effects:** Enjoy smooth animations for image selection and deletion, enhancing the overall user experience.
+5. **Smooth Animations:** Enjoy smooth animations for image selection and deletion, enhancing the overall user experience.
 
 6. **Responsive Design:** Access the image gallery from various devices and screen sizes. The responsive design ensures a seamless experience on both desktop and mobile.
 
-The project aims to provide an intuitive and visually appealing interface for managing and interacting with your image collection. Try it out and enjoy the convenience of image selection, reordering, and deletion in a single application.
+7. **Search Functionality:** Easily search for images by name. The search function allows you to find specific images in your collection, enhancing efficiency.
+
+8. **Theme Change:** Switch between two visually distinct themes - "Retro" and "Forest." Tailor the gallery's appearance to your personal preference.
+
+The project aims to provide an intuitive and visually appealing interface for managing and interacting with your image collection. Explore the convenience of image selection, reordering, deletion, search, and theme customization in a single application.
 
 ## Getting Started
 
